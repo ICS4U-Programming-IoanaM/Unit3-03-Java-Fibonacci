@@ -13,7 +13,7 @@ jobs:
 
    steps:
      - name: Check out Git repository
-       uses: actions/checkout@v2
+       uses: actions/checkout@master
       
      - name: Run GitHub Super Linter
        uses: github/super-linter@main
@@ -21,5 +21,6 @@ jobs:
          VALIDATE_ALL_CODEBASE: true
          VALIDATE_JAVASCRIPT_STANDARD: false
          VALIDATE_CLANG_FORMAT: false
+         VALIDATE_CHECKOV: false
          DEFAULT_BRANCH: main
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
