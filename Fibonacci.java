@@ -71,11 +71,11 @@ public final class Fibonacci {
    */
   public static int recFib(final int n) {
     // Base case n is 0 return 0
-    if (n == 0) {
+    if (n == 1) {
       return 0;
 
       // base case n = 1 return 1
-    } else if (n == 1) {
+    } else if (n == 2) {
       return 1;
 
       // call recursive and multiply result with n
