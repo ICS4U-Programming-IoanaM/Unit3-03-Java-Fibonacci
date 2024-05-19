@@ -65,12 +65,12 @@ public class Fibonacci {
   }
 
   /**
-   * This function calculates the fibonacci pattern
+   * This function calculates the fibonacci pattern.
    *
    * @param n index of fibonacci value
    * @return an integer value (the value of fibonacci at index n)
    */
-  public static int recFib(int n) {
+  public static int recFib(final int n) {
     // Base case n is 0 return 0
     if (n == 0) {
       return 0;
