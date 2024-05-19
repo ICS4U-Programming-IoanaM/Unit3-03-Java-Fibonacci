@@ -11,10 +11,9 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2024-04-01
  */
-@SuppressWarnings("HideUtilityClassConstructor")
 public class Fibonacci {
   /** Constructor for the ReverseString class. */
-  public Fibonacci() {
+  private Fibonacci() {
     // empty constructor
   }
 
